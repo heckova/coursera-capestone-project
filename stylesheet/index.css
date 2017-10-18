@@ -1,0 +1,116 @@
+html {
+    background: url("./images/indexImage.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    font-size: 100%;
+}
+
+body {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+}
+
+.head {
+    display: inline-block;
+    position: relatie;
+    top: 200px;
+    width: 100vw;
+    background-color: #e46a6b;
+    color: white;
+}
+
+#name {
+    display: inline;
+    font-size: 1em;
+    color: #2b2525;
+}
+
+h1 {
+    font-size: 2em;
+    display: inline-block;
+    color: #2b2525;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    padding: 4.5%;
+    background-color: white;
+    opacity: 0.7;
+    width: 70vw;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+a {
+    color: #e46a6b;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav {
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    width: 100vw;
+}
+
+nav div:hover {
+    background-color: white;
+    color: black;
+    opacity: 1;
+    padding: 25px;
+    transition-duration: 1s;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+p {
+    display: none;
+}
+
+@media screen and (min-width: 750px) {
+    .head {
+        margin-top: 35vh;
+        line-height: 50%;
+        font-size: 1.5em;
+        opacity: 0.7;
+        background-color: black;
+    }
+
+    div {
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        padding: 10px;
+        background-color: white;
+        opacity: 0.7;
+    }
+
+    nav div:hover {
+        padding: 1%;
+    }
+
+    h1 {
+        color: #e46a6b;
+    }
+
+    #name {
+        color: #e46a6b;
+    }
+
+    p {
+        display: inline;
+    }
+}
