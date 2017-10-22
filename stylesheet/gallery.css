@@ -1,7 +1,7 @@
 html {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 100%;
-    background-color: black;
+    background-color: #2b2525;
 }
 
 header {
@@ -63,7 +63,7 @@ a:hover {
 img {
     width: 80vw;
     padding: 5%;
-    background-color: black;
+    background-color: #2b2525;
 
 }
 
@@ -92,6 +92,10 @@ img {
     #gallery {
         display: flex;
         flex-direction: row;
+        width: 100vw;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
 
     }
 
